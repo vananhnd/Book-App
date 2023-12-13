@@ -17,7 +17,7 @@ function BookShow({ book }) {
 
   let content = <h3>{book.title}</h3>;
   if (showEdit) {
-    content = <BookEdit onSubmit={handleSubmit} book={book} />;
+    content = <BookEdit key={book.id} onSubmit={handleSubmit} book={book} />;
   }
   return (
     <div className="book-show">

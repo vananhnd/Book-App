@@ -10626,16 +10626,18 @@ a.has-text-danger-dark:hover {
 .app h1 {
   font-size: 48px;
   font-weight: 800;
+  color: #ab8d67;
   margin: auto;
   max-width: 1024px;
   padding: 20px;
 }
 .book-create {
-  background-color: #00d1b2;
+  background-color: #ab8d67;
   bottom: 0;
   padding: 20px 40px 30px;
   position: fixed;
   width: 100%;
+  z-index: 100;
 }
 .book-create h3 {
   color: #fff;
